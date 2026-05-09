@@ -234,7 +234,7 @@ jobs:
           declare -A REPOS
           REPOS["OnePlusOSS"]="OnePlusOSS|kernel_manifest"
           REPOS["Dynamic"]="${DYNAMIC_REPO_INPUT}|kernel_manifest"
-          REPOS["Appendix"]="Numbersf|Kernel_Manifest_Appendix"
+          REPOS["Appendix"]="Furruka|Kernel_Manifest_Appendix"
 
           FOUND_REPO=""
           FOUND_BRANCH=""
@@ -429,8 +429,8 @@ jobs:
 
       - name: Configure Git
         run: |
-          git config --global user.name "Numbersf"
-          git config --global user.email "263623064@qq.com"
+          git config --global user.name "Furruka"
+          git config --global user.email "3483930638@qq.com"
           mkdir kernel_workspace && cd kernel_workspace
           git clone https://github.com/Numbersf/Action-Build.git -b SukiSU-Ultra
 
